@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-upload {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-upload .form-floating:focus-within {
+  z-index: 2;
+}
